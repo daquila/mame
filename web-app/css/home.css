@@ -1,0 +1,71 @@
+.divider {
+	background: url(../images/divider.png) repeat-y right;
+	width: 255px;
+	padding: 0 13px 0 13px;
+	text-align: center;
+	margin-left: 0px;
+}
+
+.lastdivider {
+	width: 255px;
+	padding: 0 13px 0 13px;
+	text-align: center;
+	margin-left: 0px;
+}
+
+#features {
+	margin-left: 30px;
+}
+
+#footer {
+	background: url(../images/footer-divider.png) repeat-x top;
+}
+
+#footer {
+	margin-top: 20px;
+	margin-left: auto;
+}
+
+#social {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+body {
+	background: #fff url(../images/back.png);
+}
+
+.hero-unit.main {
+	background: #fff url(../images/back.png);
+	text-align: center;
+	margin-top: 20px;
+}
+
+.hero-unit.main h1 {
+	margin-bottom: 20px;
+}
+
+.hero-unit.main p {
+	height: 80px;
+}
+
+h3 a:link {
+	color: #333333;
+	text-decoration: none;
+}
+
+h3 a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+h3 a:active {
+	color: #333333;
+	text-decoration: none;
+}
+
