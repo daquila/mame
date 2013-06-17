@@ -12,9 +12,9 @@
 		<g:javascript library="jquery" plugin="jquery"/>
 		<g:layoutHead/>
 		<r:layoutResources />
+		<mame:gatrackpage />
 	</head>
 	<body>
-		<mame:gatrackpage />
 		<div class="container" id="maincontainer">
 			<br><br><br>
 			<g:layoutBody/>
