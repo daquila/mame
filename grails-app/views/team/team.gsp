@@ -9,6 +9,8 @@
 			
 		<g:render template="/navBar" model="['selected': com.mame.constants.Constants.NAV_BAR_TEAM]" />
 
+		<br>
+
 		<!--
 		<table class="table table-striped">
 			<thead>

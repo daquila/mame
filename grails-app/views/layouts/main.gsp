@@ -14,6 +14,7 @@
 		<r:layoutResources />
 	</head>
 	<body>
+		<mame:gatrackpage />
 		<div class="container" id="maincontainer">
 			<br><br><br>
 			<g:layoutBody/>

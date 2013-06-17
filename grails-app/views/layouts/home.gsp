@@ -14,6 +14,7 @@
 		<r:layoutResources />
 	</head>
 	<body>
+		<mame:gatrackpage />
 		<g:layoutBody/>
 		<g:javascript library="application"/>
 		<r:layoutResources />
