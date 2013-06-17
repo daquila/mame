@@ -1,6 +1,6 @@
 <div class="navbar" id="navbar">
 	<div class="navbar-inner" style="padding-left:55px;">
-		<a class="brand" href="/mame">Mameluco</a>
+		<a class="brand" href="/">Mameluco</a>
 		<ul class="nav">
 			<!--
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_NEWS}">class="active"</g:if>>
@@ -8,7 +8,7 @@
 			</li>
 			-->
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_TEAM}">class="active"</g:if>>
-				<a href="/mame/equipo">Plantel</a>
+				<a href="/equipo">Plantel</a>
 			</li>
 			<!--
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_INSCRIPTION}">class="active"</g:if>>
@@ -19,13 +19,13 @@
 			</li>
 			-->
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_FIXTURE}">class="active"</g:if>>
-				<a href="/mame/fixture/fecha/1">Fixture</a>
+				<a href="/fixture/fecha/1">Fixture</a>
 			</li>
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_TABLE}">class="active"</g:if>>
-				<a href="/mame/posiciones">Tabla</a>
+				<a href="/posiciones">Tabla</a>
 			</li>
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_CHRONICS}">class="active"</g:if>>
-				<a href="/mame/cronicas">Crónicas</a>
+				<a href="/cronicas">Crónicas</a>
 			</li>
 		</ul>
 	</div>

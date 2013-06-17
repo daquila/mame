@@ -78,7 +78,7 @@
 		<g:if test="${match?.chronic}">
 			<hr>
 			<span class="icon-align-justify"></span>&nbsp;
-			<a href="/mame/partido/${match.id}/cronica">Ver la crónica del partido</a>
+			<a href="/partido/${match.id}/cronica">Ver la crónica del partido</a>
 		</g:if>
 			
 	</body>

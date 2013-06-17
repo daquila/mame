@@ -8,7 +8,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><g:layoutTitle default="Mameluco"/></title>
-		<link href="/mame/css/mame.css" type="text/css" rel="stylesheet">
+		<link href="css/mame.css" type="text/css" rel="stylesheet">
 		<g:javascript library="jquery" plugin="jquery"/>
 		<g:layoutHead/>
 		<r:layoutResources />
