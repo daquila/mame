@@ -10,18 +10,7 @@
 
 		<g:render template="/navBar" model="['selected': selected]" />
 
-		<fieldset>
-			<legend>${match.chronic.title}</legend>
-			<br>
-
-			<blockquote>
-				<p>${match?.chronic?.description?.encodeAsHTML()?.replaceAll('\n','<br/>\n')}</p>
-				<br>
-				<small>${match?.chronic?.author?.alias}</small>
-				<small>${match?.chronic?.date?.format("dd/MM/yyyy")}</small>
-			</blockquote>
-
-		</fieldset>
+		<mame:chronic chronic="${match.chronic}" />
 		
 	</body>
 </html>

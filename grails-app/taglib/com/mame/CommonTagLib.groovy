@@ -8,4 +8,8 @@ class CommonTagLib {
 		out << render(template: "/analytics/gatrack")
 	}
 
+	def chronic = { attrs, body ->
+		out << render(template: "/match/chronic", model:[chronic: attrs.chronic])
+	}
+
 }

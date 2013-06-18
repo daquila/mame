@@ -9,22 +9,10 @@
 
 			<g:render template="/navBar" model="['selected': com.mame.constants.Constants.NAV_BAR_CHRONICS]" />
 			<br>
-			
-			<g:each var="dto" in="${chronics}" status="pos">
-				<fieldset>
-					<legend>${dto.title}</legend>
-					<br>
 
-					<blockquote>
-						<p>${dto?.description?.encodeAsHTML()?.replaceAll('\n','<br/>\n')}</p>
-						<br>
-						<small>${dto?.author?.alias}</small>
-						<small>${dto?.date?.format("dd/MM/yyyy")}</small>
-					</blockquote>
-				</fieldset>
-				<br>
+			<g:each var="chronic" in="${chronics}" status="pos">
+				<mame:chronic chronic="${chronic}" />
 			</g:each>
-			
 		</div>
 	</body>
 </html>
