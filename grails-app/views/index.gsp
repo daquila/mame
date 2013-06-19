@@ -4,7 +4,6 @@
 		<meta name="layout" content="home"/>
 		<title>Mameluco Gonzalez</title>
 		<r:require modules="bootstrap"/>
-		<r:require module="home"/>
 	</head>
 	<body>
 		<div class="container">

@@ -1,20 +1,26 @@
+.span3.divider {
+	margin-left:0px;
+}
+
+.span3.lastdivider {
+	margin-left:0px;
+}
+
 .divider {
 	background: url(../images/divider.png) repeat-y right;
-	width: 255px;
-	padding: 0 13px 0 13px;
+	padding-left: 5px;
+	padding-right: 5px;
 	text-align: center;
-	margin-left: 0px;
 }
 
 .lastdivider {
-	width: 255px;
-	padding: 0 13px 0 13px;
+	padding-left: 5px;
+	padding-right: 5px;
 	text-align: center;
-	margin-left: 0px;
 }
 
 #features {
-	margin-left: 30px;
+	margin-left: auto;	
 }
 
 #footer {
@@ -29,6 +35,10 @@
 #social {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+html {
+	background: #fff;
 }
 
 body {
@@ -67,5 +77,9 @@ h3 a:hover {
 h3 a:active {
 	color: #333333;
 	text-decoration: none;
+}
+
+span {
+	margin-left: -20px;
 }
 
