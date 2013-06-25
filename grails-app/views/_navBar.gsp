@@ -27,6 +27,9 @@
 			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_CHRONICS}">class="active"</g:if>>
 				<a href="/cronicas">Crónicas</a>
 			</li>
+			<li <g:if test="${selected==com.mame.constants.Constants.NAV_BAR_GALLERY}">class="active"</g:if>>
+				<a href="/fotos">Fotos</a>
+			</li>
 		</ul>
 	</div>
 </div>

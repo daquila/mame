@@ -9,5 +9,6 @@ class Constants {
 	def static NAV_BAR_TABLE = "table"
 	def static NAV_BAR_TEAM = "team"
 	def static NAV_BAR_CHRONICS = "chronics"
+	def static NAV_BAR_GALLERY = "gallery"
 
 }

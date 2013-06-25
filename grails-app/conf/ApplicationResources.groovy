@@ -15,4 +15,9 @@ modules = {
     home {
     	resource url:'css/home.css', disposition: 'head'
     }
+
+    gallery {
+        resource url:'js/wookmark.min.js', disposition: 'head'
+        resource url:'js/jquery.imagesloaded.js', disposition: 'head'
+    }
 }

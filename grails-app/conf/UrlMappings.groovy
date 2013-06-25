@@ -17,6 +17,7 @@ class UrlMappings {
 		"/partido/$id/cronica"(controller: "match", action:"matchChronic")
 		"/cronicas"(controller: "team", action:"chronics")
 		"/cronicas/$id"(controller: "match", action:"chronic")
+		"/fotos"(controller: "team", action:"gallery")
 
 		"/"(view:"/index")
 		"500"(view:'/error')

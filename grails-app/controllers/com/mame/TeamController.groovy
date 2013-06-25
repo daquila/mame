@@ -10,4 +10,8 @@ class TeamController {
     	render(view: "chronics", model:[chronics: Chronic.list()?.sort{a,b->b.date <=> a.date}])
     }
 
+    def gallery() { 
+    	render(view: "gallery")
+    }
+
 }

@@ -31,3 +31,11 @@ html,body {
 	margin-top: 15px;
 	padding-bottom: 15px;
 }
+
+#tiles {
+	position: relative;
+}
+
+.span3:nth-child(5) {
+	clear: left;
+}

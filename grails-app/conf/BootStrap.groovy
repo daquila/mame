@@ -164,7 +164,7 @@ class BootStrap {
                 author: p1,
                 match: f3m1,
                 title: "La ruta del dinero G (2da parte)",
-                picture: "leocesio.jpg",
+                picture: "img_10.jpg",
                 position: "bottom"
             ).save(flush:true)
 
@@ -203,7 +203,7 @@ class BootStrap {
                 author: p1,
                 match: f5m1,
                 title: "Ultimo momento",
-                picture: "magocatriel.jpg",
+                picture: "img_12.jpg",
                 position: "right"
             ).save(flush:true)
 
@@ -213,10 +213,13 @@ class BootStrap {
         Match f6m4 = new Match(teamOne:pasaGustavo, scoreTeamOne:2, teamTwo:bernabeu, scoreTeamTwo:0).save(flush:true)
         Fixture f6 = new Fixture(index:6, matches:[f6m1, f6m2, f6m3, f6m4]).save(flush:true)
 
+        Match f7m1 = new Match(teamOne:mamelucoGonzales, scoreTeamOne:2, teamTwo:bernabeu, scoreTeamTwo:0).save(flush:true)
+        Fixture f7 = new Fixture(index:7, matches:[f7m1]).save(flush:true)
+
     	Tournament sokol = new Tournament(
 			name:"Sokol", 
 			teams:[mamelucoGonzales, pasaGustavo, bernabeu, pacheco, astonBirra, mataJuniors, cirujas, flowerPower],
-			fixture:[f1,f2,f3,f4,f5,f6]
+			fixture:[f1,f2,f3,f4,f5,f6,f7]
 		).save(flush:true)
 
     }

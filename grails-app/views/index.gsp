@@ -18,7 +18,7 @@
 			  	<div class="span3 divider">
 			    	<div class="featureicon"><i class="icon-user"></i></div>
 			        <h3><a href="/equipo">Plantel</a></h3>
-			        <p>Conoce en detalle a cada uno de los jugadores del plantel.</p>
+			        <p>Conoce en detalle a cada uno de los jugadores.</p>
 			    </div>
 			    <div class="span3 divider">
 			    	<div class="featureicon"><i class="icon-th-large"></i></div>
@@ -28,9 +28,9 @@
 			    <div class="span3 divider">
 			    	<div class="featureicon"><i class="icon-th-list"></i></div>
 			    	<h3><a href="/posiciones">Tabla</a></h3>
-			        <p>Descubrí la tabla general de posiciones. En donde esta el equipo?</p>
+			        <p>Descubrí las posiciones en la tabla general del torneo.</p>
 			    </div>
-			     <div class="span3 lastdivider">
+			    <div class="span3 lastdivider">
 			    	<div class="featureicon"><i class="icon-pencil"></i></div>
 			        <h3><a href="/cronicas">Crónicas</a></h3>
 			        <p>No te pierdas la visión de nuestro cronista independiente.</p>

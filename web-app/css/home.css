@@ -8,14 +8,14 @@
 
 .divider {
 	background: url(../images/divider.png) repeat-y right;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
 	text-align: center;
 }
 
 .lastdivider {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
 	text-align: center;
 }
 
