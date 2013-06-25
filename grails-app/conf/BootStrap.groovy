@@ -16,90 +16,105 @@ class BootStrap {
                 lastname:"Boselli", 
                 alias:"Sanchez chiño", 
                 email:"andres_boselli@hotmail.com",
+                description:"Arquero, defensor, volante: hace de todo y TODO LO HACE MAL. Falto un partido por resaca y el equipo gano 7-1. Saquen sus propias conclusiones."
             ).save(flush:true)
     	Player p2 = new Player(
                 name:"Jose", 
                 lastname:"DAquila", 
                 alias:"Peska", 
-                email:"jose.daquila@gmail.com"
+                email:"jose.daquila@gmail.com",
+                description:"A circulado por varias posiciones en la cancha y en todas se ha destacado. Perdon, me exprese mal, en todas se ha ESTACADO. La movilidad de una sombrilla clavada en la arena, solo que en la marca, ni sombra les hace a los rivales."
             ).save(flush:true)
     	Player p3 = new Player(
                 name:"Guillermo", 
                 lastname:"Bolo Bolaño", 
                 alias:"Koinhor", 
-                email:"guillebolo@hotmail.com"
+                email:"guillebolo@hotmail.com",
+                description:"EL CAPITAN, el referente, el dueño del equipo. Que se haga cargo de este papelón. Como goleador hace recordar al bufalo Funes, aquel glorioso jugador que llevo a River a ser el rey de América. Perdon, me exprese mal, ha Funes Mori. Blas Pasarellaño dijo q vale 50 palos verdes, pero su papá dice que esos palos no sirven ni para prender un fueguito q mejor sería que lo vendan por madera seca."
             ).save(flush:true)
         Player p4 = new Player(
                 name:"Agustin", 
                 lastname:"Cesio", 
                 alias:"Goyco", 
-                email:"agustincesio@gmail.com"
+                email:"agustincesio@gmail.com",
+                description:"Un MULTIFÁCETICO. Arquero de \"los Murcielagos\" y pintor sin manos, es EL ESTUDIANTE del equipo. También “patea” penales, ya camino por el de Ezeiza y la cárcel de Devoto."
             ).save(flush:true)
         Player p5 = new Player(
                 name:"Francisco", 
                 lastname:"Torino", 
                 alias:"Mago", 
-                email:"torinofrancisco@hotmail.com"
+                email:"torinofrancisco@hotmail.com",
+                description:"Dejo la galera porque no le entra en la cabeza. Su último truco fue sacar un yunque y se lo incrusto en la frente. Con los pies: esta buscando al hada azul para que le conceda el deseo de ser un niño real y no seguir siendo de madera."
             ).save(flush:true)
         Player p6 = new Player(
                 name:"Alvaro", 
                 lastname:"Gaona", 
                 alias:"Alvarito", 
-                email:"agaona23@yahoo.com.ar"
+                email:"agaona23@yahoo.com.ar",
+                description:"Temperamental y aguerrido como buen uruguayo, así lo vendieron cuando llego. Con el tiempo logramos la traducción: un leche hervida y carnicero serial. Emite un sonido característico de la fauna rioplatense para avisar que se proyecto al ataque."
             ).save(flush:true)
         Player p7 = new Player(
                 name:"Maurizio", 
                 lastname:"Pastine", 
                 alias:"Mauri", 
-                email:"mjp_arg@hotmail.com"
+                email:"mjp_arg@hotmail.com",
+                description:"Vino a cambiarle la cara al equipo como en su momento lo hicieron el Ogro Fabbiani en River, el Pampa Sosa en Boca, Straqualurzi en San Lorenzo, y más acá en el tiempo: el Tecla Farías en el Rojo."
             ).save(flush:true)
         Player p8 = new Player(
                 name:"Ignacio", 
                 lastname:"Caputo", 
                 alias:"Nacho", 
-                email:"nachocap@hotmail.com"
+                email:"nachocap@hotmail.com",
+                description:"DESEQUILIBRANTE cuando hace la banda. El problema es cuando se para adentro y no alentando desde la tribuna."
             ).save(flush:true)
         Player p9 = new Player(
                 name:"Nicolas", 
                 lastname:"Torino", 
                 alias:"Nico", 
-                email:"agrobusiness@unitedbrokers.com.ar"
+                email:"agrobusiness@unitedbrokers.com.ar",
+                description:"CRACK… hacen sus huesos al principio de cada temporada. Cuando vuelve al final del torneo se destaca con sus goles a lo Zidane."
             ).save(flush:true)
         Player p10 = new Player(
                 name:"Fernando", 
                 lastname:"Almeida", 
                 alias:"Fer", 
-                email:"fernandoal31@hotmail.com"
+                email:"fernandoal31@hotmail.com",
+                description:"LA PAUSA, cuando todos se apresuran, el maneja los tiempos como en Slow motion, POR FAVOR QUE ALGUIEN LE PONGA PLAY. El cerebro del equipo sin terminales nerviosas."
             ).save(flush:true)
         Player p11 = new Player(
                 name:"Maximo", 
                 lastname:"Miguens", 
                 alias:"Chimi", 
-                email:"maximomiguens@gmail.com"
+                email:"maximomiguens@gmail.com",
+                description:"Dicen que lo vieron en Alaska con las manos escarchadas, casi al borde la amputación, a pesar de todas las recomendaciones, se negó a ponerse los guantes. "
             ).save(flush:true)
         Player p12 = new Player(
                 name:"Alejo", 
                 lastname:"Blasco", 
                 alias:"Alejo", 
-                email:"alejoblasco@hotmail.com"
+                email:"alejoblasco@hotmail.com",
+                description:"Fue una gran incorporación cuando trajo un DT que le puso los puntos al Majestuoso.  Después se sumo a la quintita de los lesionados que van por la cervecita del tercer tiempo."
             ).save(flush:true)
         Player p13 = new Player(
                 name:"Eduardo", 
                 lastname:"Malbran", 
                 alias:"Machi", 
-                email:"emmalbran@gmail.com"
+                email:"emmalbran@gmail.com",
+                description:"Cuando no esta se nota. Perdon, me exprese mal, se ANOTA en algún partido de tenis. Dicen que sus rivales tenísticos emulan a Gaston Gaudio. ¿Por el nivel? NO, por la siguiente frase “que mal la estoy pasando!!”"
             ).save(flush:true)
         Player p14 = new Player(
                 name:"Lucio", 
                 lastname:"Fernandez Madero", 
                 alias:"Burbu", 
-                email:"lfernandezmadero@hotmail.com"
+                email:"lfernandezmadero@hotmail.com",
+                description:"Desaparecido en la fecha 3. Si alguien sabe su paradero o lo vio merodeando por algún burdel o “whiskería” mande un mal informando a burbuvasacomerbanco@mame.com."
             ).save(flush:true)
         Player p15 = new Player(
                 name:"Diego", 
                 lastname:"Bolo Bolaño", 
                 alias:"Majestuoso", 
-                email:"lacuencadelpetardo@hotmail.com"
+                email:"lacuencadelpetardo@hotmail.com",
+                description:"EL DISTINTO, siempre te sorprende y hace lo que nadie piensa. Cuando hay q pasarla se la morfa, cuando hay q morfarsela la pasa, cuando hay q meter pausa va sin freno, cuando hay que despejar quiere salir esquivando en posiciones defensivas. El revulsivo del equipo. La tribuna lo idolatra."
             ).save(flush:true)
 
     	Team mamelucoGonzales = new Team(name:"Mameluco Gonzalez", players:[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15]).save(flush:true)
