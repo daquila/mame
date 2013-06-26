@@ -229,7 +229,10 @@ class BootStrap {
         Fixture f6 = new Fixture(index:6, matches:[f6m1, f6m2, f6m3, f6m4]).save(flush:true)
 
         Match f7m1 = new Match(teamOne:mamelucoGonzales, scoreTeamOne:2, teamTwo:bernabeu, scoreTeamTwo:0).save(flush:true)
-        Fixture f7 = new Fixture(index:7, matches:[f7m1]).save(flush:true)
+        Match f7m2 = new Match(teamOne:cirujas, scoreTeamOne:null, teamTwo:flowerPower, scoreTeamTwo:null).save(flush:true)
+        Match f7m3 = new Match(teamOne:pacheco, scoreTeamOne:null, teamTwo:pasaGustavo, scoreTeamTwo:null).save(flush:true)
+        Match f7m4 = new Match(teamOne:astonBirra, scoreTeamOne:null, teamTwo:mataJuniors, scoreTeamTwo:null).save(flush:true)
+        Fixture f7 = new Fixture(index:7, matches:[f7m1,f7m2,f7m3,f7m4]).save(flush:true)
 
     	Tournament sokol = new Tournament(
 			name:"Sokol", 

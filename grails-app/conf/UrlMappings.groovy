@@ -18,6 +18,7 @@ class UrlMappings {
 		"/cronicas"(controller: "team", action:"chronics")
 		"/cronicas/$id"(controller: "match", action:"chronic")
 		"/fotos"(controller: "team", action:"gallery")
+		"/fbLogin"(view: "fbLogin")
 
 		"/"(view:"/index")
 		"500"(view:'/error')
