@@ -1,8 +1,8 @@
-#playerbox a .thumbnail {
+#playerbox .thumbnail {
 	padding:-4px;
 }
 
-#playerbox a .thumbnail:hover {
+#playerbox:hover {
 	background-color:#f2f2f2;
 }
 

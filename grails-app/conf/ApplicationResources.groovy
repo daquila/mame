@@ -10,6 +10,8 @@ modules = {
 
     team {
     	resource url:'css/team.css', disposition: 'head'
+        resource url:'js/wookmark.min.js', disposition: 'head'
+        resource url:'js/jquery.imagesloaded.js', disposition: 'head'
     }
 
     home {

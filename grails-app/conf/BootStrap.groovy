@@ -107,7 +107,7 @@ class BootStrap {
                 lastname:"Fernandez Madero", 
                 alias:"Burbu", 
                 email:"lfernandezmadero@hotmail.com",
-                description:"Desaparecido en la fecha 3. Si alguien sabe su paradero o lo vio merodeando por algún burdel o “whiskería” mande un mal informando a burbuvasacomerbanco@mame.com."
+                description:"Desaparecido en la fecha 3. Si alguien sabe su paradero o lo vio merodeando por algún burdel o “whiskería” mande un mail informando a burbuvasacomerbanco@mame.com."
             ).save(flush:true)
         Player p15 = new Player(
                 name:"Diego", 
